@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Blog</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #212529;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            text-align: center;
+            color: #005a9e;
+            margin-bottom: 2rem;
+        }
+
+        article {
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+            article:last-child {
+                border-bottom: none;
+                margin-bottom: 0;
+            }
+
+            article h2 {
+                color: #343a40;
+                margin-top: 0;
+            }
+
+        .meta {
+            font-size: 0.9rem;
+            color: #6c757d;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            margin-bottom: 1rem;
+        }
+
+        pre {
+            background-color: #2d2d2d;
+            color: #f8f8f2;
+            padding: 1rem;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+
+        code {
+            font-family: "Consolas", "Monaco", "Andale Mono", "Ubuntu Mono", monospace;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 2rem;
+            padding-top: 1rem;
+            font-size: 0.9rem;
+            color: #6c757d;
+            border-top: 1px solid #dee2e6;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>My Tech Blog</h1>
+        </header>
+
+        <main>
+            <article>
+                <h2>AI in Security: Transforming the Digital Defense Landscape</h2>
+                <p class="meta">By Jane Doe | Published on November 29, 2025</p>
+                <p>Artificial Intelligence (AI) is revolutionizing cybersecurity. As threats grow in complexity, traditional security measures struggle to keep pace. AI offers a dynamic, adaptive approach to threat detection, prevention, and response, making it an essential tool in modern security strategies.</p>
+                <p>AI-powered systems analyze vast amounts of data in real time, identifying patterns and anomalies that may indicate malicious activity. This enables faster and more accurate detection of new threats compared to rule-based systems.</p>
+            </article>
+
+            <article>
+                <h2>Best Practices for Implementing AI in Cybersecurity</h2>
+                <p class="meta">By John Smith | Published on November 22, 2025</p>
+                <p>Implementing AI in cybersecurity requires careful planning. A crucial first step is to define clear objectives. Identify specific security problems you want AI to solve, such as intrusion detection, malware classification, or phishing prevention.</p>
+                <p>Another best practice is to ensure you are using high-quality data. Your AI models should be trained on diverse, up-to-date, and accurately labeled datasets that represent real-world scenarios. For example, a simple Python script can be used to preprocess data:</p>
+                <pre><code>import pandas as pd
+
+def preprocess_data(filepath):
+    # Load data from a CSV file
+    df = pd.read_csv(filepath)
+    
+    # Drop rows with missing values
+    df.dropna(inplace=
