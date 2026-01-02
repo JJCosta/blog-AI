@@ -46,6 +46,14 @@ App development, fueled by generative AI, promises smarter tools and greater pro
 
 ---
 
+## References
+
+- [How GitHub Copilot is revolutionizing the developer experience](https://github.blog/2023-03-22-how-github-copilot-is-revolutionizing-the-developer-experience/)
+- [ChatGPT: Optimizing Language Models for Dialogue](https://openai.com/blog/chatgpt/)
+- [McKinsey: What every CEO should know about generative AI](https://www.mckinsey.com/capabilities/quantumblack/our-insights/what-every-ceo-should-know-about-generative-ai)
+- [Stanford HAI: Generative AI and the Future of Work](https://hai.stanford.edu/news/generative-ai-and-future-work)
+- [Will AI replace programmers? – The Economist](https://www.economist.com/interactive/briefing/2023/06/08/will-ai-replace-programmers)
+
 *What are your thoughts about AI in software development? Share your perspective in the comments!*
 
 © 2026 José Costa
