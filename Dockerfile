@@ -1,7 +1,7 @@
 FROM nginx:alpine
 
 # Copy the HTML file to the nginx html directory
-COPY pageBlog.md /usr/share/nginx/html/index.html
+COPY pageBlog.html /usr/share/nginx/html/index.html
 
 # Expose port 80
 EXPOSE 80
