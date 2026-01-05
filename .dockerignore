@@ -1,0 +1,7 @@
+BlogAIMaui/
+*.md
+README.md
+.git
+.gitignore
+Dockerfile
+docker-compose.yml

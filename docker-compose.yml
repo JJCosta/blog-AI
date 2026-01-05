@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  blog-ai-page:
+    build: .
+    ports:
+      - "8080:80"
+    container_name: blog-ai-web
+    restart: unless-stopped
